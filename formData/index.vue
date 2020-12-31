@@ -1,5 +1,5 @@
 <template>
-  <div class="{{fileNmae}}">
+  <div class="{{fileName}}">
     这是用户定义的fileName : {{fileName}}
     这是组件内部的数据: \{{message}}
   </div>
@@ -14,6 +14,6 @@ export default {
  }
 </script>
 <style lang="less" scoped>
-.{{fileNmae}}{
+.{{fileName}}{
 }
 </style>
